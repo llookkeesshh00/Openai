@@ -1,4 +1,5 @@
 from langchain_huggingface import HuggingFaceEndpointEmbeddings
+from langchain_core.prompts import PromptTemplate,load_prompt 
 from dotenv import load_dotenv
 
 load_dotenv()
